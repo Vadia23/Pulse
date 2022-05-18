@@ -2,10 +2,15 @@
 @import 'blocks/promo';
 @import 'blocks/header.scss';
 @import 'blocks/buttons';
+@import 'blocks/benefits';
+@import 'base/media';
+@import 'blocks/consultation.scss';
+@import 'blocks/forms';
+@import 'blocks/carousel';
 *{
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
-.container{
+.container {
     max-width: 950px;
     margin: 0 auto;
 }

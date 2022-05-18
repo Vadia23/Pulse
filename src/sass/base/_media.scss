@@ -1,0 +1,53 @@
+@media ( max-width: 479px){
+    
+    .header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        &__official{
+            display: none;
+        }
+        &__logo{
+            margin-left: 5px;
+            img{
+                width: 85%;
+            }
+        }
+        &__contacts{
+            justify-content: center;
+            margin-right: 5px;
+            button{
+                width: 135px;
+            }
+            }
+        &__phone{
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        
+        }
+        .promo__wrapper{
+            align-items: center;
+        }
+        .promo{
+            width: 100%;
+            background:url(/src/img/bg.jpg) ;
+            &__header{
+                font-size: 23px;
+            }
+            &__subheader{
+                font-size: 13px;
+            }
+            &_icons{
+                justify-content: center;
+            }
+            &__icon{
+                width: 100px;
+                font-size: 13px;
+            }
+            }
+        }
+    
+    
+    
+
