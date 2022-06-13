@@ -1,12 +1,21 @@
 .consultation {
     min-height: 680px;
-    background: url(/src/img/bg2.jpg) center (center/cover) no-repeat;
+    background: url(../img/bg2.jpg) center (center/cover) no-repeat;
     padding: 100px 0 108px 0;
     &__descr{
         font-weight: 500;
         font-size: 20px;
         line-height: 30px;
         color: #FFFFFF;
+    }
+    .error {
+        border: 1.5px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        border-bottom: 15px;
+        color: #D3D3D3;
     }
     .title{
         font-weight: 700;
